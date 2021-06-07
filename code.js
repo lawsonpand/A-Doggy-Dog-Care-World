@@ -2,8 +2,18 @@
 // Those instructions will give you details on each step.
 
 // STEP ONE - Create your Data Model.
-let dataModel = null;  // Assign your data model here, instead of null. This should be an array of "dog" objects.
+let dataModel = [ // Assign your data model here, instead of null. This should be an array of "dog" objects.
+{
+  name: "Scooby-Doo", 
+  breed: "Great Dane and Sheepdog",
+  age: 7,
+  likesTreats: true
+}
 
+{
+  
+}
+]
 
 // When this function is run, it is meant to use the user input to build
 // a dog object, and add the dog object to the data model array.
